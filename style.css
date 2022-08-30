@@ -603,7 +603,21 @@ main {
     flex-direction: column;
 }
 
-.shield-block, .quick-links__block, .services-block {
+.contact-us__block {
+    width: 299px;
+    height: 112px;
+    margin-left: 91px;
+}
+
+.contact-us-content__block {
+    width: 297.42px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 14px;
+}
+
+.shield-block, .quick-links__block, .services-block, .contact-us__block {
     display: inline-block;
     vertical-align: top;
 }
