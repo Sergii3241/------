@@ -510,7 +510,12 @@ main {
 
 .plan-block:hover {
     background-color: #0098FF;
-    color: #FFFFFF !important;
+}
+
+.plan-block:hover .tariff-time,
+.plan-block:hover .plan-price,
+.plan-block:hover .about-tariff {
+    color: #FFFFFF;
 }
 
 .buy-button {
