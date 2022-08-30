@@ -10,12 +10,15 @@ body {
     background-color: #E5E5E5;
 }
 
-header, main, footer{
+header,
+main,
+footer {
     width: 100%;
     max-width: 1728px;
     margin: 0px auto;
     background-color: #ffffff;
 }
+
 main {
     background-color: white;
 }
@@ -54,8 +57,8 @@ main {
 
 .menu {
     font-family: 'Poppins';
-    display: inline-block; 
-    margin-left: 506px;       
+    display: inline-block;
+    margin-left: 506px;
 }
 
 .login-button {
@@ -73,7 +76,7 @@ main {
     margin-top: 30px;
 }
 
-.menu-items__container{
+.menu-items__container {
     display: flex;
 }
 
@@ -185,6 +188,7 @@ main {
     outline: none;
     margin-top: 36px;
 }
+
 .input-domain::placeholder {
     font-family: 'Poppins';
     font-style: normal;
@@ -422,7 +426,7 @@ main {
     line-height: 69px;
     color: #ffffff;
     text-align: center;
-} 
+}
 
 .about-our__service-block {
     width: 297px;
@@ -446,7 +450,7 @@ main {
     padding-top: 150px;
 }
 
-.plan-title{
+.plan-title {
     text-align: center;
     font-family: 'Ubuntu';
     font-style: normal;
@@ -454,7 +458,7 @@ main {
     font-size: 40px;
     line-height: 46px;
     color: #03045E;
-}  
+}
 
 .plan-container {
     width: 1272px;
@@ -504,9 +508,9 @@ main {
     margin-bottom: 20px;
 }
 
-.about-tariff > span {
+.about-tariff>span {
     font-weight: 600;
-  }
+}
 
 .plan-block:hover {
     background-color: #0098FF;
@@ -534,7 +538,7 @@ main {
     font-size: 18px;
 }
 
-.footer-section{
+.footer-section {
     height: 472px;
     background-color: rgba(246, 246, 246, 0.4);
     padding-top: 103px;
@@ -607,6 +611,7 @@ main {
     width: 299px;
     height: 112px;
     margin-left: 91px;
+    margin-top: 3px;
 }
 
 .contact-us-content__block {
@@ -617,7 +622,52 @@ main {
     padding-top: 14px;
 }
 
-.shield-block, .quick-links__block, .services-block, .contact-us__block {
+.follow-us__block {
+    display: flex;
+    justify-content: space-between;
+    width: 112px;
+    height: 66px;
+    margin-top: 30px;
+
+}
+
+.follow-us__img-container {
+    height: 18px;
+    width: 112px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 27px;
+}
+
+.privacy-container {
+    display: flex;
+    justify-content: space-between;
+    height: 101px;
+    background-color: white;
+    padding-top: 43px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #03045E;
+}
+
+.copyright {
+    margin-left: 224px;
+
+}
+
+.privacy {
+    margin-right: 220px;
+
+}
+
+.shield-block,
+.quick-links__block,
+.services-block,
+.contact-us__block,
+.follow-us__block {
     display: inline-block;
     vertical-align: top;
 }
