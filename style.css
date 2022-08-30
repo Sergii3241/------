@@ -515,7 +515,7 @@ main {
 .plan-block:hover .tariff-time,
 .plan-block:hover .plan-price,
 .plan-block:hover .about-tariff {
-    color: #FFFFFF;
+    color: white;
 }
 
 .buy-button {
